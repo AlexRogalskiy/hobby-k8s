@@ -1,0 +1,10 @@
+dashboard:
+  enabled: true
+  domain: traefik-ui.minikube
+  auth:
+    basic:
+      traefik: $apr1$PYhwFVkk$yvtI0pyUERVb7lO1de4GS.
+kubernetes:
+  namespaces:
+    - default
+    - kube-system
